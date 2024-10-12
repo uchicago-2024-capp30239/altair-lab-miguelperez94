@@ -21,6 +21,7 @@ jupyter = "^1.1.1"
 altair = "^5.4.1"
 pandas = "^2.2.3"
 polars = "^1.9.0"
+ruff = "^0.6.9"
 
 
 [build-system]
