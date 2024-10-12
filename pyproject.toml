@@ -1,0 +1,28 @@
+[project]
+name = "altair-lab-miguelperez94"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "jupyter>=1.1.1",
+]
+
+[tool.poetry]
+name = "altair-lab-miguelperez94"
+version = "0.1.0"
+description = "Virtual environment for Altair lab"
+authors = ["Miguel Perez <miguelperez@uchicago.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.1.1"
+altair = "^5.4.1"
+pandas = "^2.2.3"
+polars = "^1.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
